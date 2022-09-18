@@ -38,5 +38,5 @@ la_df=tibble(
             logical=norm>0,
             abs_norm=abs(norm)
 )
-ggplot(la_df,aes(x=abs_norm))+geom_histogram()
+
 ```
